@@ -1,0 +1,198 @@
+.container {
+  width: 980px;
+  margin: 0 auto;
+  height: 100%;
+  opacity: 1; }
+
+#our-services {
+  height: 600px;
+  width: 100%;
+  background-image: url("../img/o-s-bcg.jpg");
+  overflow: hidden; }
+  #our-services .slice {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(47, 54, 61, 0.9);
+    overflow: hidden; }
+    #our-services .slice .container h2 {
+      text-transform: uppercase;
+      color: #A2CEF2;
+      font-weight: 600;
+      text-align: center;
+      font-size: 2em;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+
+.o-s-block {
+  display: inline-block;
+  width: 180px;
+  height: 190px;
+  overflow: hidden;
+  text-decoration: none;
+  margin: 0 10px 25px 0; }
+  .o-s-block img {
+    display: block;
+    height: 140px;
+    width: 180px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px; }
+  .o-s-block p {
+    font-size: 14px;
+    color: #A2CEF2;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center; }
+
+.o-s-block:hover {
+  cursor: default; }
+
+#o-s-block1, #o-s-block6 {
+  margin-left: 10px; }
+
+#about-section {
+  overflow: hidden;
+  height: 775px;
+  width: 100%;
+  background-image: url(../img/info-bcg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  #about-section .container h2 {
+    color: #A2CEF2;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-top: 100px; }
+  #about-section .container p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2em;
+    font-style: italic; }
+
+#say-about {
+  height: 500px;
+  width: 100%;
+  overflow: hidden; }
+  #say-about .container h2 {
+    color: #A2CEF2;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-top: 50px; }
+
+.rslides li div {
+  width: 40%;
+  height: 250px;
+  margin: 0 5%; }
+  .rslides li div p:first-child {
+    text-align: center;
+    font-style: italic;
+    line-height: 2em; }
+  .rslides li div p:last-child {
+    text-align: right; }
+
+.about-say-logo {
+  display: inline-block; }
+
+.a-s-logos {
+  width: 380px;
+  margin: 20px auto 0; }
+
+#a-s-logo-2 {
+  margin-left: 10px; }
+
+footer {
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/footer-bcg.png); }
+  footer .slice {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(47, 54, 61, 0.9);
+    overflow: hidden; }
+  footer .footer-logo {
+    height: 145px;
+    width: 371px;
+    margin: 50px auto 25px; }
+
+.ft-bloks {
+  display: inline-block;
+  height: 200px;
+  width: 240px;
+  overflow: hidden;
+  text-align: center; }
+  .ft-bloks div {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px; }
+    .ft-bloks div i {
+      display: inline-block;
+      font-size: 3em;
+      color: #A2CEF2; }
+  .ft-bloks span {
+    font-size: 1.5em;
+    color: #ffffff; }
+
+.ft-links a {
+  display: inline-block; }
+
+.ft-form {
+  display: block;
+  height: 50px;
+  width: 240px;
+  margin: 25px 0 0 25px; }
+
+input {
+  width: 100%;
+  height: 30px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  font-weight: 600;
+  font-style: italic;
+  color: #62696E;
+  padding: 10px; }
+
+.ft-form-block {
+  display: inline-block;
+  overflow: hidden; }
+
+.ft-form-block-left {
+  height: 270px;
+  width: 300px; }
+
+.ft-form-block-right {
+  height: 270px;
+  width: 670px; }
+
+.ft-message {
+  width: 620px;
+  height: 125px;
+  margin: 25px 25px; }
+
+textarea {
+  height: 105px;
+  text-align: start;
+  width: 100%;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  font-weight: 600;
+  padding: 10px;
+  color: #62696E; }
+
+.button {
+  width: 250px;
+  height: 55px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #A2CEF2;
+  margin-left: 410px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #A2CEF2; }
+
+button:hover {
+  background-color: #62696E; }
